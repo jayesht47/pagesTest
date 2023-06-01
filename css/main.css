@@ -3,6 +3,10 @@ html {
   line-height: 1.2;
 }
 
+.pb-1{
+  padding-bottom: 1em;
+}
+
 .resume-parent {
   padding: 0 1.5em;
 }
@@ -47,8 +51,22 @@ html {
   display: flex;
 }
 
+.company{
+  margin-bottom: 1em;
+}
+
 .company-info {
   margin: 0.5em 0;
+}
+
+.course-parent{
+  display: flex;
+  justify-content: space-between;
+  padding: .25em;
+}
+
+.others-wrapper{
+  padding: .25em;
 }
 
 @media screen and (min-width: 480px) {
